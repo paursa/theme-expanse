@@ -659,6 +659,8 @@ a.btn.btn-mini:hover {
 }
 .post .post-content a {
   text-decoration: underline;
+  direction: rtl;
+  text-align: justify;
 }
 .post h1 {
   padding: 0 0 50px 0;
