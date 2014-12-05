@@ -954,7 +954,8 @@ div.posts div.item .post-content p,
 div.posts div.item .post-content div,
 div.posts div.item .post-content b,
 div.posts div.item .post-content i {
-  text-align: left;
+  text-align: justify;
+  direction: rtl;
 }
 div.posts div.item .post-content ul strong,
 div.posts div.item .post-content ol strong,
