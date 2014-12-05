@@ -63,7 +63,6 @@ body {
   font-size: 100%;
   font-family: 'Tahoma', helvetica, arial, sans-serif;
   color: #0e3029;
-  direction: rtl;
   line-height: 1.5rem;
   font-family: 'Roboto';
   font-weight: 300;
@@ -659,8 +658,6 @@ a.btn.btn-mini:hover {
 }
 .post .post-content a {
   text-decoration: underline;
-  direction: rtl;
-  text-align: justify;
 }
 .post h1 {
   padding: 0 0 50px 0;
@@ -707,7 +704,8 @@ a.btn.btn-mini:hover {
 .post-content div,
 .post-content b,
 .post-content i {
-  text-align: left;
+  text-align: justify;
+  direction: rtl;
 }
 .post-content ul strong,
 .post-content ol strong,
